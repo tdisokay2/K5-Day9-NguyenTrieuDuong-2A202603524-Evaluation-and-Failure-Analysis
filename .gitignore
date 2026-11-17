@@ -1,5 +1,15 @@
 __pycache__/
 *.pyc
-src/reports/
+src/reports/*
 src/traces/
 *.sqlite
+.venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+src/eval/instructor/
+!src/reports/baseline_v1.json
+!src/reports/baseline_v2.json
+!src/reports/eval_fixed.json
+!src/reports/eval_seeded_regression.json
